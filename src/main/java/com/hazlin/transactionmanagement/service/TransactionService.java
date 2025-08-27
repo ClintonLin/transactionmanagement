@@ -34,7 +34,6 @@ public class TransactionService {
         transactionRepository.deleteById(id);
     }
 
-    @CachePut(value = "transactions", key = "#id")
     @CacheEvict(value = "transactions", allEntries = true)
     public Transaction updateTransaction(Long id, Transaction transactionDetails) {
         Transaction transaction = transactionRepository.findById(id)

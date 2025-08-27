@@ -1,0 +1,61 @@
+RUN	com.hazlin.transactionmanagement.simulation.TransactionSimulation	gatling-results	1756309536934	 	3.9.5
+USER	Create Transaction	START	1756309540555
+USER	List Transactions	START	1756309540597
+REQUEST		Create Transaction	1756309540588	1756309540599	KO	j.n.ConnectException: Connection refused
+REQUEST		List Transactions	1756309540588	1756309540600	KO	j.n.ConnectException: Connection refused
+USER	List Transactions	START	1756309541532
+REQUEST		List Transactions	1756309541531	1756309541533	KO	j.n.ConnectException: Connection refused
+USER	Create Transaction	START	1756309541536
+REQUEST		Create Transaction	1756309541537	1756309541539	KO	j.n.ConnectException: Connection refused
+USER	List Transactions	END	1756309541612
+USER	Create Transaction	END	1756309541612
+USER	List Transactions	START	1756309542534
+REQUEST		List Transactions	1756309542532	1756309542535	KO	j.n.ConnectException: Connection refused
+USER	List Transactions	END	1756309542535
+USER	Create Transaction	START	1756309542537
+REQUEST		Create Transaction	1756309542538	1756309542540	KO	j.n.ConnectException: Connection refused
+USER	Create Transaction	END	1756309542540
+USER	Create Transaction	START	1756309543528
+USER	List Transactions	START	1756309543530
+REQUEST		Create Transaction	1756309543529	1756309543532	KO	j.n.ConnectException: Connection refused
+REQUEST		List Transactions	1756309543529	1756309543532	KO	j.n.ConnectException: Connection refused
+USER	List Transactions	END	1756309543537
+USER	Create Transaction	END	1756309543541
+USER	Create Transaction	START	1756309544528
+USER	List Transactions	START	1756309544530
+REQUEST		List Transactions	1756309544529	1756309544532	KO	j.n.ConnectException: Connection refused
+REQUEST		Create Transaction	1756309544529	1756309544532	KO	j.n.ConnectException: Connection refused
+USER	Create Transaction	END	1756309544532
+USER	List Transactions	END	1756309544533
+USER	Create Transaction	START	1756309545528
+USER	List Transactions	START	1756309545530
+REQUEST		List Transactions	1756309545529	1756309545531	KO	j.n.ConnectException: Connection refused
+REQUEST		Create Transaction	1756309545529	1756309545532	KO	j.n.ConnectException: Connection refused
+USER	List Transactions	END	1756309545533
+USER	Create Transaction	END	1756309545533
+USER	Create Transaction	START	1756309546528
+USER	List Transactions	START	1756309546530
+REQUEST		List Transactions	1756309546529	1756309546531	KO	j.n.ConnectException: Connection refused
+REQUEST		Create Transaction	1756309546529	1756309546531	KO	j.n.ConnectException: Connection refused
+USER	List Transactions	END	1756309546533
+USER	Create Transaction	END	1756309546533
+USER	Create Transaction	START	1756309547528
+USER	List Transactions	START	1756309547529
+REQUEST		List Transactions	1756309547528	1756309547531	KO	j.n.ConnectException: Connection refused
+REQUEST		Create Transaction	1756309547529	1756309547532	KO	j.n.ConnectException: Connection refused
+USER	Create Transaction	END	1756309547532
+USER	List Transactions	END	1756309547532
+USER	List Transactions	START	1756309548529
+USER	Create Transaction	START	1756309548529
+REQUEST		List Transactions	1756309548528	1756309548530	KO	j.n.ConnectException: Connection refused
+REQUEST		Create Transaction	1756309548530	1756309548532	KO	j.n.ConnectException: Connection refused
+USER	Create Transaction	END	1756309548533
+USER	List Transactions	END	1756309548533
+USER	Create Transaction	START	1756309549528
+USER	List Transactions	START	1756309549529
+REQUEST		List Transactions	1756309549529	1756309549531	KO	j.n.ConnectException: Connection refused
+USER	List Transactions	END	1756309549531
+REQUEST		Create Transaction	1756309549529	1756309549531	KO	j.n.ConnectException: Connection refused
+USER	Create Transaction	END	1756309549533
+USER	List Transactions	END	1756309550532
+USER	Create Transaction	END	1756309550533

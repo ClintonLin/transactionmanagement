@@ -1,0 +1,5 @@
+[
+  { "amount": 10.0, "type": "DEBIT", "description": "Transaction 1", "timestamp": "2023-10-27T10:00:00" },
+  { "amount": 20.0, "type": "CREDIT", "description": "Transaction 2", "timestamp": "2023-10-27T11:00:00" },
+  { "amount": 30.0, "type": "DEBIT", "description": "Transaction 3", "timestamp": "2023-10-27T12:00:00" }
+]
