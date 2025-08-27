@@ -139,3 +139,7 @@ docker build -t transaction-management .
 
 ```sh
 docker run -p 8080:8080 transaction-management
+
+## 测试结果
+
+测试结果将在 `target/gatling` 目录中可用。
